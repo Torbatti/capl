@@ -1,0 +1,7 @@
+# pocketbase binaries
+pocketbase.exe
+pocketbase
+# pocketbase files
+pb_data
+pb_public
+pb_migrations

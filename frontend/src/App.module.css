@@ -1,0 +1,19 @@
+.nav{
+  background-color:var(--c01);
+  color:var(--c02);  
+}
+.nav__box{
+  padding: .75rem;
+  
+  display:flex;
+  gap:.5rem;
+  justify-content:space-between;
+}
+
+.nav__box__div{
+  display:flex;
+  gap:1rem;
+  align-items:center;
+
+  font-size:small;
+}
