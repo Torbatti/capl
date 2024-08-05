@@ -1,3 +1,85 @@
+.khane_fehrest{
+  /* background-image: linear-gradient(to right top, #9af2ad, #90f5b8, #87f8c3, #7dfbce, #74fdd9); */
+  /* background-color:rgb(23, 97, 23); */
+
+}
+
+.khane_fehrest__box{
+  background-image: linear-gradient(to right top, #1d9d65, #199f64, #15a264, #11a463, #0ba662);
+  height:7rem;
+  z-index:1;
+  position: relative;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+}
+.khane_fehrest__bg{
+  position:absolute;
+  z-index:-1;
+
+  width:100%;
+  height:7rem;
+
+  opacity:.1;
+  /* background-image:  
+    linear-gradient(var(--c01) 0.9px, transparent 0.9px), 
+    linear-gradient(90deg, var(--c01) 0.9px, transparent 0.9px);
+  background-position: -1.8px -1.8px, -1.8px -1.8px, -0.9px -0.9px, -0.9px -0.9px;
+  background-size: 9px 9px; */
+  opacity: 0.3;
+  background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+  background-size: 18px 32px;
+  background-position: 0 0, 0 0, 9px 16px, 9px 16px, 0 0, 9px 16px;
+}
+
+.khane_fehrest__link{
+  color:white;
+  z-index:2;
+
+  font-weight:bold;
+
+  text-shadow: 2px 2px 2px var(--c01);
+
+  transform:rotate(0deg);
+}
+
+.khane_fehrest__link:hover{
+  animation: khane_fehrest__link 1s infinite;
+
+}
+
+
+@keyframes khane_fehrest__link {
+  0%,100%{
+    transform:rotate(0deg);
+  }
+  33%{
+    transform:rotate(-45deg);
+  }
+  66%{
+    transform:rotate(45deg);
+  }
+  
+}
+
+@media screen and (min-width: 480px) {.khane_fehrest__link{font-size:large;}}
+@media screen and (min-width: 640px) {.khane_fehrest__link{font-size:x-large;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fehrest{
   margin:1rem auto;
   display:grid;
@@ -11,16 +93,21 @@
 
 
 .link{
-  border:2px solid var(--c01);
+  /* border:2px solid var(--c01); */
   display:flex;
   justify-content:center;
   align-items:center;
 
   background-image: linear-gradient(to right top, #9af2ad, #90f5b8, #87f8c3, #7dfbce, #74fdd9);
+  /* background-image: linear-gradient(to top, #bb2949, #bf2343, #c21b3d, #c51237, #c80630); */
 
+  background-image: linear-gradient(to right top, #59b328, #4db93d, #3ebe50, #2bc362, #06c873);
+
+  color:rgb(0, 0, 0);
 }
 .link:hover{
-  border:3px solid var(--c01);
+  /* border:3px solid var(--c01); */
+  font-weight:bold;
 }
 
 .link{height:64px;}
