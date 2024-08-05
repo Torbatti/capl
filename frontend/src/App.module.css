@@ -3,6 +3,8 @@
   color:var(--c02);  
 }
 .nav__box{
+  height:3rem;
+  
   padding: .75rem;
   
   display:flex;

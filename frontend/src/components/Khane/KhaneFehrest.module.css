@@ -1,11 +1,11 @@
-.khane_fehrest{
+/* .khane_fehrest{ */
   /* background-image: linear-gradient(to right top, #9af2ad, #90f5b8, #87f8c3, #7dfbce, #74fdd9); */
   /* background-color:rgb(23, 97, 23); */
-
-}
+/* } */
 
 
 .khane_fehrest__box{
+  margin-top:1rem;
   background-image: linear-gradient(to right top, #1d9d65, #199f64, #15a264, #11a463, #0ba662);
   height:7rem;
   z-index:1;
@@ -13,6 +13,8 @@
   display:flex;
   justify-content:space-around;
   align-items:center;
+
+  box-shadow:2px 2px 6px var(--c01);
 }
 @media screen and (max-width:720px) {.khane_fehrest__box{width:100%;}}
 
