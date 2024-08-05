@@ -26,9 +26,10 @@
 .link{height:64px;}
 @media screen and (min-width: 480px) {.link{height:48px;}}
 @media screen and (min-width: 640px) {.link{height:54px;}}
-@media screen and (min-width: 1080px) {.link{height:72px;}}
+@media screen and (min-width: 1080px) {.link{height:54px;}}
 
 .link{font-size:small;}
 @media screen and (min-width: 480px) {.link{font-size:medium;}}
+@media screen and (min-width: 1080px) {.link{font-size:medium;}}
 /* @media screen and (min-width: 640px) {.link{height:120px;}} */
 /* @media screen and (min-width: 1080px) {.link{height:160px;}} */
