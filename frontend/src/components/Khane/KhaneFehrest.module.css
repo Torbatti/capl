@@ -4,6 +4,7 @@
 
 }
 
+
 .khane_fehrest__box{
   background-image: linear-gradient(to right top, #1d9d65, #199f64, #15a264, #11a463, #0ba662);
   height:7rem;
@@ -12,8 +13,10 @@
   display:flex;
   justify-content:space-around;
   align-items:center;
-
 }
+@media screen and (max-width:720px) {.khane_fehrest__box{width:100%;}}
+
+
 .khane_fehrest__bg{
   position:absolute;
   z-index:-1;
